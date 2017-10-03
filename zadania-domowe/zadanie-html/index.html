@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <strong><p>Zapisy na szkolenie.</p></strong>
+    <form action="https://formspree.io/dariuszkolaj@gmail.com" method="POST">
+        <label for="imie">Imię:</label><br/>
+        <input type="text" name="imie" id="imie"><br/>
+        <label for="nazwisko">Nazwisko:</label><br/>
+        <input type="text" name="nazwisko" id="nazwisko"><br/>
+        <label for="email">Adres e-mail: </label><br/>
+        <input type="text" name="email" id="email"><br/>
+        <label for="miasto">Miasto:</label>
+        <select name="select">
+            <option value="value1" selected>Warszawa</option>
+            <option value="value2" selected>Kraków</option>
+            <option value="value3">Białystok</option>
+        </select><br/>
+        <label for="plec">Płeć:</label><br/>
+        <input type="radio" name="plec" value="K" /> Kobieta
+        <input type="radio" name="plec" value="M" /> Mężczyzna <br/>
+        <label for="wiadomosc">Wiadomość:</label><br/>
+        <textarea rows="10" cols="50"></textarea><br/>
+        <label><input type="checkbox"> Wyrażam zgodę na przetwarzanie moich danych osobowych.</label><br/>
+       
+
+    </form>
+</body>
+
+</html>
