@@ -9,22 +9,24 @@
 <body>
     <p>Zapisy na szkolenie.</p>
     <form action="https://formspree.io/dariuszkolaj@gmail.com" method="POST">
-        <label for="imie">Imię</label><br/>
+       
+        <label for="imie">Imię:</label><br/>
         <input type="text" name="imie" id="imie"><br/>
-        <label for="nazwisko">Nazwisko</label><br/>
-        <input type="text" name="imie" id="nazwisko"><br/>
-        <label for="email">Adres e-mail </label><br/>
+        <label for="nazwisko">Nazwisko:</label><br/>
+        <input type="text" name="nazwisko" id="nazwisko"><br/>
+        <label for="email">Adres e-mail: </label><br/>
         <input type="text" name="email" id="email"><br/>
+        
         <label for="miasto">Miasto:</label>
-        <select name="miasto" id="miasto">
-            <option value="Warszawa">Warszawa</option>
-            <option value="Kraków">Kraków</option>
-            <option value= "Białystok">Białystok</option>
+        <select name="Miasto">
+            <option>Warszawa</option>
+            <option>Kraków</option>
+            <option>Białystok</option>
         </select><br/>
+        
         <label for="plec">Płeć:</label><br/>
-        <input type="radio" id="plec" value="Kobieta" />Kobieta
-        <input type="radio" id="plec" value="Mężczyzna" />Mężczyzna <br/>
-
+        <input type="radio" name="plec" value="Kobieta" />Kobieta
+        <input type="radio" name="plec" value="Mężczyzna" />Mężczyzna <br/>
         <label for="wiadomosc">Wiadomość:</label><br/>
         <textarea maxlength="1000"></textarea><br/>
         <label><input type="checkbox"> Wyrażam zgodę na przetwarzanie moich danych osobowych.</label><br/>
