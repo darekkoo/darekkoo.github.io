@@ -4,16 +4,13 @@
     background-color: white;
 }
 
-#red {
-    top: 10px;
-    left: 10px;
+.square {
     position: absolute;
     width: 200px;
     height: 200px;
-    background-color: red;
 }
 
-#pink-round {
+.round {
     position: absolute;
     left: 50px;
     top: 50px;
@@ -21,48 +18,37 @@
     height: 100px;
     border: 1px solid;
     border-radius: 50px;
+}
+
+#red {
+    top: 10px;
+    left: 10px;
+    background-color: red;
+}
+
+#pink-round {
     background-color: pink;
 
 }
 
 #blue {
-    position: absolute;
-    width: 200px;
-    height: 200px;
     left: 215px;
     top: 10px;
     background-color: blue;
 }
 
 #grey-round {
-    position: absolute;
-    left: 50px;
-    top: 50px;
-    width: 100px;
-    height: 100px;
-    border: 1px solid;
-    border-radius: 50px;
     background-color: grey;
 }
 
 #darkgreen {
-    position: absolute;
     top: 10px;
     left: 420px;
     right: 5px;
-    width: 200px;
-    height: 200px;
     background-color: darkgreen
 }
 
 #purple-round {
-    position: absolute;
-    left: 50px;
-    top: 50px;
-    width: 100px;
-    height: 100px;
-    border: 1px solid;
-    border-radius: 50px;
     background-color: purple;
 
 }
@@ -72,117 +58,61 @@
 #yellow {
     top: 215px;
     left: 10px;
-    position: absolute;
-    width: 200px;
-    height: 200px;
     background-color: yellow;
 }
 
 #darkgreen-round {
-    position: absolute;
-    left: 50px;
-    top: 50px;
-    width: 100px;
-    height: 100px;
-    border: 1px solid;
-    border-radius: 50px;
     background-color: darkgreen;
 }
 
 #black {
-    position: absolute;
-    width: 200px;
-    height: 200px;
     left: 215px;
     top: 215px;
     background-color: black;
 }
+
 #red-round {
-    position: absolute;
-    left: 50px;
-    top: 50px;
-    width: 100px;
-    height: 100px;
-    border: 1px solid;
-    border-radius: 50px;
     background-color: red;
 }
 
 #orange {
-    position: absolute;
     top: 215px;
     left: 420px;
     right: 5px;
-    width: 200px;
-    height: 200px;
     background-color: darkorange
 }
+
 #blue-round {
-    position: absolute;
-    left: 50px;
-    top: 50px;
-    width: 100px;
-    height: 100px;
-    border: 1px solid;
-    border-radius: 50px;
     background-color: blue;
 }
 
 #purple {
     top: 420px;
     left: 10px;
-    position: absolute;
-    width: 200px;
-    height: 200px;
     background-color: purple
 }
 
 #orange-round {
-     position: absolute;
-    left: 50px;
-    top: 50px;
-    width: 100px;
-    height: 100px;
-    border: 1px solid;
-    border-radius: 50px;
     background-color: orange;
 }
 
 #grey {
-    position: absolute;
-    width: 200px;
-    height: 200px;
     left: 215px;
     top: 420px;
     background-color: grey;
 }
+
 #yellow-round {
-    position: absolute;
-    left: 50px;
-    top: 50px;
-    width: 100px;
-    height: 100px;
-    border: 1px solid;
-    border-radius: 50px;
     background-color: yellow;
 }
 
 #pink {
-    position: absolute;
     top: 420px;
     left: 420px;
     right: 5px;
-    width: 200px;
-    height: 200px;
     background-color: pink
 }
+
 #black-round {
-    position: absolute;
-    left: 50px;
-    top: 50px;
-    width: 100px;
-    height: 100px;
-    border: 1px solid;
-    border-radius: 50px;
     background-color: black;
 }
