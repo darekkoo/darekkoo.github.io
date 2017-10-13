@@ -1,0 +1,53 @@
+@media all and (max-width: 991px) {
+    #text {
+        display: inline-block;
+        color: black;
+        position: relative;
+        width:100%;
+        text-align:center;
+    }
+
+    .image-small {
+        display: block;
+
+    }
+
+    .image-large {
+
+        display: none;
+
+    }
+
+}
+
+
+@media all and (min-width: 992px) and (max-width: 1170px) {
+    .image-small {
+        display: none;
+    }
+    .image-large {
+        display: block;
+    }
+
+    #text {
+        left: 60%;
+        top: 10%;
+    }
+}
+
+@media all and (min-width: 1171px) {
+
+    .image-large {
+        display: block;
+    }
+
+    .image-small {
+        display: none;
+    }
+
+    #text {
+        left: 1%;
+        top: 20%;
+    }
+
+}
