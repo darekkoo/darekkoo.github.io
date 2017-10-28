@@ -7,12 +7,13 @@
         text-align:center;
     }
 
-    .image-small {
+    #image-small {
         display: block;
+        background-image: url(../zadanie-domowe-rwd-materialy/obrazy/man-1.jpg)
 
     }
 
-    .image-large {
+    #image-large {
 
         display: none;
 
