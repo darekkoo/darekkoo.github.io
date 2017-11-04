@@ -1,0 +1,48 @@
+body {
+    font-family: 'Roboto Slab', serif;
+    color: #777;
+}
+
+section {
+    padding: 60px 0;
+}
+
+/*Main nav styles*/
+
+#main-nav a.navbar-brand {
+    color: red;
+    font-family: 'Montserrant', sans-serif;
+    font-size: 2em;
+}
+
+#main-nav .nav-item a {
+    color: red;
+    text-transform: uppercase;
+    font-family: 'Montserrant', sans-serif;
+}
+
+#main-nav .nav-item a:hover {
+    color: #0ed8d6;
+}
+
+#main-nav.scroll {
+    background-color: rgba(14, 216, 214, 0.75);
+}
+
+#main-nav.scroll .nav-item a:hover {
+    color: #777;
+}
+
+/*Main nav style END*/
+
+/*Main headers styles*/
+
+#main-header {
+    background-image: url(../img/header/pictures_on_the_wall.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+}
+
+/*Main headers style*/

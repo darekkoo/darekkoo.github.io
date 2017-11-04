@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz zgłoszenia</title>
+</head>
+
+<body>
+    <p>Zapisy na szkolenie.</p>
+
+    <form action="https://formspree.io/dariuszkolaj@gmail.com" method="POST">
+
+        <label for="imie">Imię:</label><br/>
+        <input type="text" name="imie" id="imie"><br/>
+        <label for="nazwisko">Nazwisko:</label><br/>
+        <input type="text" name="nazwisko" id="nazwisko"><br/>
+        <label for="email">Adres e-mail: </label><br/>
+        <input type="text" name="email" id="email"><br/>
+
+        <label for="miasto">Miasto:</label>
+        <select name="Miasto" id="miasto">
+                <option>Warszawa</option>
+                <option>Kraków</option>
+                <option>Białystok</option>
+            </select><br/>
+
+        <p>Płeć:<br/>
+            <label for="kobieta">Kobieta</label>
+            <input type="radio" name="plec" value="kobieta" /><br/>
+            <label for="mezczyzna">Mężczyzna</label>
+            <input type="radio" name="plec" value="mezczyna" id="mezczyzna" /><br/>
+        </p>
+
+        <label for="wiadomosc">Wiadomość:</label><br/>
+        <textarea rows="10" cols="50" name="wiadomosc" id="wiadomosc"></textarea><br/>
+
+        <label for="zgoda">Wyrażam zgodę na przetwarzanie moich danych osobowych.</label>
+        <input type="checkbox" name="zgoda" id="zgoda"><br/>
+
+        <input type="submit" value="Wyślij zgłoszenie.">
+    </form>
+</body>
+
+</html>
